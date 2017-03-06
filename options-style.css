@@ -1,0 +1,32 @@
+
+h1 {
+    font-size: 14pt;
+    color: #444;
+}
+
+label {
+    cursor: pointer;
+}
+
+p.acknowledgments {
+    margin-top: 30px;
+    font-size: small;
+}
+
+li {
+    font-size: 12pt;
+    list-style: none;
+}
+
+kbd {
+    display: inline-block;
+    background-color: #999;
+    color: #fff;
+    padding: 3px;
+    margin: 3px;
+    font-family: monospace;
+    min-width: 1.5em;
+    text-align: center;
+    border-radius: 2px;
+}
+
