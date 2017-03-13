@@ -1,7 +1,7 @@
 {
     "name": "Shortcuts for LexisAdvance Website",
 	"description": "Adds keyboard shortcuts for LexisAdvance(R) website.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Owen Healy <owenehealy@gmail.com>",
     "manifest_version": 2,
     "permissions": [
@@ -14,6 +14,9 @@
 			"matches": ["https://advance.lexis.com/*", "http://advance.lexis.com/*"],
 			"js": ["third-party/jquery-3.1.1.min.js", "contentscript.js"]
 		}
+	],
+	"web_accessible_resources": [
+		"no-highlight.css"
 	],
 	"options_page": "options.html",
 	"icons": {
